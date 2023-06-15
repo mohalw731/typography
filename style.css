@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: Mukta, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+.wrapper {
+
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+h1, h2, h3, h4, h5, h6, .info {
+    font-family: Bitter, serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: -1.5px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 50px;
+    letter-spacing: -0.5px;
+}
+
+.wrapper h3 {
+    font-size: 38px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-size: 24px;
+    letter-spacing: 0.25px;
+}
+
+h6 {
+    font-size: 20px;
+    letter-spacing: 0.25px;
+}
+
+
+.info {
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 14px;
+ letter-spacing: 1.5px;
+}
+
+.orange {
+    color: rgb(189, 64, 11);
+    font-weight: bold;
+}
+
+.orange2 {
+    color: rgb(189, 64, 11);
+   
+}
+
+.headline {
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin: 40px 0  40px ;
+    font-size: 18px;
+}
+
+.headh2 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 14px;
+     border-left: 2px solid rgb(189, 64, 11);
+     padding-left: 16px;
+     margin: 32px 0 32px 32px;
+}
+
+.quote cite {
+    display: block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
+/*footer*/
+
+footer {
+background-color: rgb(30, 30, 30);
+
+}
+
+footer ul {
+    list-style-type: none;
+   width: 100%;
+   margin: 0 auto;
+   max-width: 900px;
+   text-align: center;
+   padding: 28px 0 28px 0;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 16px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+footer ul li a:hover {
+    color: rgb(189, 64, 11);
+    text-decoration: underline;
+
+}
+
+
+/* hero*/
+.hero {
+    background-color: rgb(30, 30, 30);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero p {
+    color: rgb(189, 64, 11)
+}
+
+.hero h1, .hero p {
+width: 75%;
+max-width: 900px;
+text-align: center;
+margin: 16px 0;
+}
+
+.hero hr {
+    width: 50%;
+    margin: 32px 0;
+}
